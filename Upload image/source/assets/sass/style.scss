@@ -1,0 +1,33 @@
+input {
+  display: none;
+}
+
+img.icon {
+  cursor: pointer;
+}
+
+.dimension {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+
+.slide {
+  width: 100%;
+  height: 1100px;
+  object-fit: cover;
+}
+
+#preview-container {
+  position: relative;
+  display: inline-block;
+
+  img.nxt-icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    cursor:pointer;
+    display: none;
+  }
+}
